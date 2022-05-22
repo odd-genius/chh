@@ -24,5 +24,17 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void Sap_Click(object sender, RoutedEventArgs e)
+        {
+            сапер w = new сапер();
+            w.Show();
+        }
+
+        private void Kre_Click(object sender, RoutedEventArgs e)
+        {
+            Крестик_нолик s = new Крестик_нолик();
+            s.Show();
+        }
     }
 }

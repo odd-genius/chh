@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="324,147,0,0" VerticalAlignment="Top" Width="75"/>
-
+        <Button x:Name="sap" Content="Cапёр" HorizontalAlignment="Left" Margin="270,72,0,0" VerticalAlignment="Top" Width="195" Height="50" FontSize="24" Click="Sap_Click"/>
+        <Button x:Name="kre" Content="Крестик-нолик" HorizontalAlignment="Left" VerticalAlignment="Top" Width="195" Margin="270,152,0,0" Height="54" FontSize="24" Click="Kre_Click"/>
+        <Button Content="Палка-капалка" HorizontalAlignment="Left" Margin="270,233,0,0" VerticalAlignment="Top" Width="195" Height="57" FontSize="24"/>
     </Grid>
 </Window>
